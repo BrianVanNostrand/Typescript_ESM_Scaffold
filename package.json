@@ -1,0 +1,26 @@
+{
+  "name": "strava_api_explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "prepublish": "npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianVanNostrand/Strava_API_Explorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianVanNostrand/Strava_API_Explorer/issues"
+  },
+  "homepage": "https://github.com/BrianVanNostrand/Strava_API_Explorer#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.5",
+    "typescript": "^4.7.4"
+  },
+  "files": ["lib/"]
+}
